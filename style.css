@@ -422,7 +422,7 @@ flex-wrap: wrap;
     margin-top: -50px;
     padding-left: 100px;
   }
-  footer h1 ,.footer1 ,.footer2{
+  h1 ,.footer1 ,.footer2{
     color: #455058;
   }
   footer .footer1{
@@ -451,7 +451,7 @@ flex-wrap: wrap;
  } 
  .footer3 input{
     padding: 10px 30px;
-margin-top: 50px;
+margin-top: 15px;
 float: right;
 border-radius: 50px;
 border: 1px solid #EEE;
@@ -953,6 +953,9 @@ textarea{
             footer{
                 
                     margin-top: 213pc;
+                float:left;
+
+                paddining-left:40px;
                 
             }
         .servidea p {
