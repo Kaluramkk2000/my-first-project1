@@ -1,0 +1,1061 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.container{
+  
+        width: 100%;
+        height: 1083vh;
+   
+}
+#first{
+width: 100%;
+ 
+height: 600px;
+background-color: rgb(238, 238, 238);
+}
+ #first .first1{
+    width:100%;
+height: 500px;
+background-image:
+linear-gradient( rgba(8, 19, 81, 0.52), rgba(10, 13, 14, 0.73)),
+url('bg1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+text-align: center;
+justify-content: center;
+
+ 
+}
+nav{width: 90%;
+     height: 70px;
+     background-color:white;
+     margin: auto;   
+     position: relative;
+     top: 50px;
+     display: flex;
+     
+}
+.logo{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(32, 183, 202);
+    padding-top: 15px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 50px;
+}
+ul li{
+     text-decoration: none;
+     list-style-type: none;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#active{
+    color: rgb(32, 183, 202) ;
+}
+ nav button{
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: aqua;
+    color: rgb(18, 17, 17);
+    border: 1px solid #eee;
+    text-transform: uppercase;
+}
+.first1 h1{
+    color:#fff ;
+font-size: 60px;
+margin-top: 100px;
+}
+.first1 p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#btn1{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 100px;
+}
+#second{
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+    margin-top: 50px;
+text-align: center;
+justify-content: center;
+}   
+ /* background-image:
+linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+url('images/background.jpg'); */
+.image{
+    background-image: 
+    linear-gradient(rgba(17, 18, 18, 0.42),rgba(0, 0, 0, 0.42)),url('bg1.jpg');
+    -webkit-user-drag: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+
+}.image h1{
+    font-size: 60px;
+    color:#fff;
+    padding-top: 20px;
+}
+.image p{
+    font-size:16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#second1{
+    width: 100%;
+    
+    background-color: #fff;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.first2{
+    width: 300px;
+    height: 249px;
+    border-radius: 10px;
+    background-color: rgb(75, 197, 126);
+    margin-top: 40px;
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+.first2 p{
+    text-align:start;
+        float: left;
+}
+#btn2{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(53, 198, 150);
+    border: none;
+border-radius: 50px;
+color: #fff;}
+.box2{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 3px 10px 0px rgb(224, 221, 216);
+    border-top: none;
+    margin-left: 40px;padding-left: 20px;
+    padding-right: 10px;text-align: center;
+    margin-top: 40px;
+}
+#service{
+    width: 100%;   
+    height: 960px;
+    background-color: #eee;
+  margin-top: 108PX;   
+}
+.al{
+    width: 100%;
+    height: 300px;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+}
+.al p{
+    width: 80%;margin: auto;
+    color: #fff;
+}
+.al h1{
+    color: #fff;
+    padding-top: 20px;
+}
+.al2{
+    width: 100%;
+    height: 00px;
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.servidea{
+    padding-left: 50px;
+}
+.servidea .span{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(28, 163, 57);
+}
+.servidea h1{
+    padding-top: 40px;
+    font-size: 40px;
+}
+    .servidea p{
+        width: 500px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+.box1{
+    width: 230px;
+    height:250px;
+    background-color: #fff;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(201, 195, 184);
+    text-align: center;
+    justify-content: center;
+}
+.fa-earth-asia{
+    font-size: 80px;
+    color: rgb(35, 173, 74);
+    padding-top: 20px;
+} 
+.table{
+    width: 57%;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+   
+}
+.box1 h1, p{
+    padding-top: 20px;
+}
+#forth{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 26px;
+    
+    padding-left: 60px;
+    text-transform: capitalize;
+}
+#forth .underline{
+    width: 60px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: blue;
+}
+#forth .buttons{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+   
+    
+} 
+
+ .buttons .button1{
+    background-color: blue;
+    padding: 5PX 10PX;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+}
+.buttons button{
+    background-color: transparent;
+    margin-left: 20px;
+    
+    border: none;
+    margin-top: 20px;
+}#forth .images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-left: 5 0px;
+}
+#check{
+    display: none;
+}
+
+#checkbtn{
+
+    float: right;right: 10px;
+    position: absolute;
+    padding: 20px;
+    font-size: 30px;
+    display: none;
+}
+.fa-close{
+    display: none;
+}
+.images img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+/*section five start*/
+#five{
+    width: 90%;
+    height: 500px;
+    background-color: #eee;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+  
+.testommonia{
+    width: 40%;
+    height: 500px;
+    
+    
+}
+.testommonia{
+    padding: 20px;
+}
+.slider{
+    width: 60%;
+    height: 500px;
+     
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .mySlides img{
+    width: 100%;
+    height: 422px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  footer{
+    width: 100%; height: 300px;
+    
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    padding-left: 100px;
+  }
+  footer h1 ,.footer1 ,.footer2{
+    color: #455058;
+  }
+  footer .footer1{
+    width: 200px;
+    height: 200px;
+    
+    margin-right: auto;
+  }
+  footer .footer2{
+    width: 250px;
+  }
+  footer p{
+    padding-left: 20px;
+  }
+  footer i{
+    padding-right: 20px;
+    color: rgb(20, 160, 83);
+  }
+  footer
+ .footer3 {
+    width: 400px;
+ } 
+ 
+ footer .footer4{
+
+ } 
+ .footer3 input{
+    padding: 10px 30px;
+margin-top: 50px;
+float: right;
+border-radius: 50px;
+border: 1px solid #EEE;
+color: #fff;
+background-color: #4e91c2;
+ }
+ @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+ 
+  
+  @media(m-width:200px){
+    .table {
+        width: 100%;
+        height: 586px;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        display: flex;
+    }
+    .servidea {
+        padding-left: 8px;
+    }
+    
+.servidea p {
+    width: 388px;
+}
+  }
+
+/*team start*/
+
+#team{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+#team .teama{
+    width: 49%;
+    height: 400px;
+}
+.teamphoto{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.boxphoto{
+    width: 300px;
+    height: 350px;
+    background-color:white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 0px rgb(201, 195, 184);
+}
+.boxphoto img{
+    line-height: 20px;
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.boxphoto h1{
+    line-height: 50px;
+}
+
+.boxphoto
+hr{
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.boxphoto  .bicon{
+    padding: 15px 18px;
+    border-radius: 100px;
+    margin-top: 20PX;
+    border: 1px solid #eee;
+    text-align: center;
+    justify-content: center;
+    transition: all 2s;
+    margin-left: 10px;
+}
+.icons {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+}
+.boxphoto .bicon i{
+    transition: all .5s
+    
+}
+.boxphoto .bicon i:hover{
+    color: rgb(28, 63, 177);
+    font-size:20px;
+    
+}
+
+.contact{
+    
+}
+.contact .teama{
+    padding: 20px;
+}
+.contact .teamphoto
+{
+    
+    height: 800px;
+}
+.teamphoto form{
+    width: 100%;
+     
+}
+.location{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px #e1dada;
+    margin-top: 20px;
+    background-color: #fff;
+    position:relative;
+}
+.location i{
+    padding: 20px;
+    font-size: 30px;
+    color: green;
+
+}
+.location H3{
+ 
+  position: absolute;
+  top: 20PX; 
+  left: 50px;
+  font-size: 16px;  
+}
+
+.location p{
+    top: 30px;
+    position: absolute;
+    left: 50px;
+}
+.linksb{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    
+     
+}
+.email, .call{
+    width: 49%;
+    height: 100px;
+    box-shadow: 0px 0px 5px 0px #e1dada;
+    
+   
+}
+.call{
+    margin-left: 20px;
+}
+.email,.call i{
+    padding: 20px;
+    font-size: 26px;
+    color: green;
+
+}
+.email h3{
+    
+    position: absolute;
+    left: 60px;
+    top: 16px;
+    color: black;
+    
+}
+.call h3{
+margin-top: -50px;
+margin-left: 60px;
+font-size: 30px;
+    
+}
+.call p{
+    margin-top: -10px;
+    margin-left: 60px;
+}
+.email p{
+    font-size: 16px;
+    margin-top: -20px;
+    margin-left: 40px;
+    color: black;
+}
+
+form{
+    width: 100%;
+    height: 450px;
+    box-shadow: 0px 0px 5px 0px #e1dada;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+form input{
+    margin: 20px;
+    width: 43%;
+    height: 50px;
+   font-size: 20px;
+   border: 1px solid #eee;
+   padding-left:20px ;border-radius: 5px;
+    
+}
+#message{
+    width: 93%;
+}
+
+textarea{
+    margin-left: 20px;
+    width: 93%;
+    border: 1px solid #eee;
+}
+
+#submit{
+    margin: auto;
+    justify-content: center;
+    position: absolute;
+    right: 250px;
+    top:359px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid #eee;
+    background-color: #4e91c2;
+    color: #fff;
+    
+}
+  /* On smaller screens, decrease text size */
+   
+@media(max-width:922px){
+
+    .first2 {
+        width: 214px;
+        height: 200px;
+        margin-top: 40px;
+        margin-left: 31px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1px;
+    }
+    .first2 p{
+        text-align: start;
+        float: left;
+        font-size: 12px;
+    
+    }
+    #btn2 {
+        margin-top: 8px;
+        width: 88px;
+        height: 24px;
+        background-color: rgb(53, 198, 150);
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+    }
+    #service {
+        width: 102%;
+        height: 1170px;
+        background-color: #eee;
+        margin-top: 76px;
+    }
+    #team {
+        display: inline-block;
+        margin-top: 100px;
+    }
+    .mapouter {
+        
+        margin-top: 58px;
+    }
+    #team .teama {
+        width: 100%;
+        height: 100px;
+        padding-left: 20px;
+    }
+    .teamphoto {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-left: 4 0px;
+    }
+    
+    .table {
+        width: 100%;
+        height: 400px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #forth {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        margin-top: 19px;
+        padding-left: 27px;
+        text-transform: capitalize;
+    }
+    #btn1{
+       
+       
+        margin-top: 37px;
+     }
+     #checkbtn{
+        /* position: fixed;   */
+  display: block;
+
+ color: rgb(182, 167, 167);
+  z-index: 999;
+     }
+     ul {
+        position: fixed;
+        background: #455058;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        top: 18px;
+        left: -100%;
+        z-index:01;
+        display: inline-grid;
+        transition: all .5s;
+    }
+       nav ul li{
+        display: block;
+        
+       }
+       nav ul li a{
+        font-size: 20px;
+        color: #fff;
+       }
+       #check:checked~.fa-close{
+        position: fixed;
+  
+  
+  display: block;
+
+    
+ 
+ color: #fff;
+  z-index: 999;
+       }
+       a:hover, a.active{
+        background:none;
+        color: #4e91c2;
+        
+     }
+     #check:checked ~ ul
+     {
+        left: 0;
+    }
+    nav button{
+        margin: auto;
+    }
+    .servidea p {
+        width: 491px;
+        padding-top: 50px;
+        font-size: 15px;
+    }
+    .images img {
+        width: 262px;
+        height: 200px;
+        margin: 10px;
+    }
+    .first1 p, .image p{
+        font-size: 11px;
+    }
+    #five {
+        width: 100%;
+        height: 500px;
+        background-color: #eee;
+        margin: auto;
+        display: inline-block;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #five {
+        width: 98%;}
+        .slider {
+            width: 100%;
+            height: 500px;
+        }
+        .testommonia {
+            width: 100%;
+            height: 250px;
+        }
+} 
+
+
+
+
+
+
+@media(max-width:722px){
+    .logo {
+        width: 189px;
+        height: 70px;
+        background-color: rgb(32, 183, 202);
+        padding-top: 25px;
+         
+        font-size: 17px;
+        padding-left: 8px;
+    }
+    .boxphoto{
+        width: 254px;
+    }
+    #team {
+        width: 99%;}
+}
+
+ 
+    
+
+
+
+
+
+@media(max-width:620px){
+    .container {
+        width: 100%;
+        height: 1492vh;
+    }
+    footer .footer1 {
+        width: 90%;
+        height: 260px;
+        margin-right: auto;
+    }
+    #btn1 {
+        margin-top: 7px;
+    }
+    #first #btn1 {
+        margin-top: 72px;
+    }
+    
+    
+        .servidea p {
+            width: 436px;}
+            .logo {
+                width: 189px;
+                height: 70px;
+                background-color: rgb(32, 183, 202);
+                padding-top: 25px;
+                 
+                font-size: 17px;
+                padding-left: 8px;
+            }
+            .boxphoto{
+                width: 254px;
+            }
+            #team {
+                width: 99%;}
+        
+        
+            .box1 {
+                width: 208px;
+                height: 250px;
+                background-color: #fff;
+                margin: 24px;}
+
+                .images img {
+                    width: 208px;}
+                    .first1 h1 {
+                        color: #fff;
+                        font-size: 43px;}
+                        .image h1 {
+                            font-size: 51px;}
+        }
+
+
+
+
+
+
+
+
+
+
+
+        @media (max-width: 520px){
+            .container {
+                width: 100%;
+                height: 1400vh;
+            }
+            #service {
+                width: 102%;
+                height: 1755px;
+                background-color: #eee;
+                margin-top: 76px;
+            }
+            footer{
+                
+                    margin-top: 213pc;
+                
+            }
+        .servidea p {
+            width: 271px;
+        }
+        #second1 {
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding-left: 31px;
+        }
+        .servidea {
+            padding-left: 29px;
+        }
+        .table {
+            
+            padding-left: 33px;
+        }
+        #service {
+            
+            height: 1804px;
+        }
+        #forth .images {
+             
+            padding-left: 45px;
+    }
+    #team {
+        display: inline-block;
+        margin-top: 18px;
+    }
+    #team .teama {
+        
+        height: 148px;
+        
+    }
+    #team {
+    display: inline-block;
+    margin-top: 18px;
+    height: 1723px;
+}
+    .linksb {
+        width: 100%;
+        height: 100px;
+        display: inline-block;
+        margin-top: 20px;
+        position: relative;
+    }
+    .teamphoto form {
+         
+        margin-top: 151px;
+        height: 530px;
+    }
+    .email {
+        width: 100%;
+        font-size: 21px;
+        color: green;
+    }
+    .call {
+        width: 100%;
+        font-size: 16px;
+        color: green;
+        margin-left: -0px;
+
+    }
+    .call p,h3{
+        color: black;
+    }
+    form input {
+        margin: 20px;
+        width: 92%;
+    }
+    #submit {
+        margin: auto;
+        justify-content: center;
+        position: absolute;
+        right: 156px;
+        top: 450px;
+    }
+ footer .footer1 {
+        width: 90%;
+        height: 251px;
+        margin-right: auto;
+    }
+    box1 h1, p {
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .boxphoto{
+        margin: auto    ;
+    }
+    .first1 h1 {
+        color: #fff;
+        font-size: 29px;
+    }
+    .image h1 {
+        font-size: 35px;
+    }
+
+        }
+
+        
+        @media (max-width: 520px){
+            
+        }    
