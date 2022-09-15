@@ -942,7 +942,7 @@ textarea{
         @media (max-width: 520px){
             .container {
                 width: 100%;
-                height: 710vh;
+                height:1000vh;
             }
             #service {
                 width: 102%;
