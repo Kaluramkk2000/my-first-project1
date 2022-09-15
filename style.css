@@ -1044,6 +1044,7 @@ textarea{
     }
     .boxphoto{
         margin: auto    ;
+        margin-top:10px;
     }
     .first1 h1 {
         color: #fff;
