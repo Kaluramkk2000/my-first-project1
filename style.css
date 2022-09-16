@@ -942,7 +942,7 @@ textarea{
         @media (max-width: 520px){
             .container {
                 width: 100%;
-                height:1000vh;
+                height:980vh;
             }
             footer {
     width: 100%;
@@ -1058,7 +1058,7 @@ textarea{
         margin: auto;
         justify-content: center;
         position: absolute;
-        right: 156px;
+        right: 100px;
         top: 450px;
     }
  footer .footer1 {
