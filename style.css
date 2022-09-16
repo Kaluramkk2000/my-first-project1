@@ -957,7 +957,7 @@ textarea{
     margin: auto;
     justify-content: center;
     position: absolute;
-    right: 186px;
+    right: 150px;
     top: 359px;
     width: 200px;
     border-radius: 100px;
@@ -973,7 +973,7 @@ textarea{
             }
             footer{
                 
-                    margin-top: 213pc;
+                    margin-top: 210pc;
                 float:left;
 
                 paddining-left:40px;
@@ -1044,6 +1044,7 @@ textarea{
         font-size: 16px;
         color: green;
         margin-left: -0px;
+        margin-top:10px;
 
     }
     .call p,h3{
@@ -1085,6 +1086,4 @@ textarea{
         }
 
         
-        @media (max-width: 520px){
-            
-        }    
+   
